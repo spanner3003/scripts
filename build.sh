@@ -100,7 +100,7 @@ $ANDROID_BUILD_TOP/kernel/samsung/p1/build.sh $P1_TARGET
 cp $ANDROID_BUILD_TOP/device/samsung/galaxytab/kernel-$P1_TARGET $ANDROID_BUILD_TOP/device/samsung/galaxytab/kernel
 
 # Android build
-make -j$THREADS bacon
+make -j4 bacon
 
 END=$(date +%s)
 ELAPSED=$((END - START))
