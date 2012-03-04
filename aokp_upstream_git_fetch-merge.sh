@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/lib/jenkins/workspace/cm9git
+cd $WORKSPACE/$REPO_BRANCH
 
 . build/envsetup.sh
 lunch aokp_galaxytab-userdebug
