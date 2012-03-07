@@ -27,7 +27,7 @@ if [[ ! $git_remote = *upstream-cyan* ]]; then
 fi
 git fetch upstream-sgt7
 echo "sgt7/android_frameworks_base"
-git merge upstream-sgt7/ics
+git merge upstream-sgt7/CS
 git fetch upstream-cyan
 echo "CyanogenMod/android_frameworks_base"
 git merge upstream-cyan/ics
